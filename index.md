@@ -4,7 +4,7 @@
 
 layout: home
 ---
-
+[开始学习][self-github-pages]
 
 在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是您可以想象的任何您有兴趣进行公证的数字文件。
 - 例如有价值的合同，电影剧本或专利。
@@ -34,36 +34,36 @@ layout: home
 
 ### 实验 1 - 启动投石机和项目文件
 
-1\. [介绍](https://domakun.github.io/nem2-workshop-document-notarization/lessons/introduction/)
+1\. [介绍](https://domakun.github.io/lessons/introduction/)
 
-2\. [公共与私有区块链](https://domakun.github.io/nem2-workshop-document-notarization/lessons/public-and-private-blockchain/)
+2\. [公共与私有区块链](https://domakun.github.io/lessons/public-and-private-blockchain/)
 
-3\. [准备工作环境](https://domakun.github.io/nem2-workshop-document-notarization/lessons/prepare-your-workstation/)
+3\. [准备工作环境](https://domakun.github.io/lessons/prepare-your-workstation/)
 
 
 ### 实验 2 - Notarizing文件
 
-4\. [你的第一次公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/first-notarization/)
+4\. [你的第一次公证](https://domakun.github.io/lessons/first-notarization/)
 
-5\. [内容与所有权认证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/content-and-ownership-verification/)
+5\. [内容与所有权认证](https://domakun.github.io/lessons/content-and-ownership-verification/)
 
-6\. [机密文件的公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/confidential-notarization/)
+6\. [机密文件的公证](https://domakun.github.io/lessons/confidential-notarization/)
 
 ### 实验 3 - 公证更新
 
-7\. [选择交易对象](https://domakun.github.io/nem2-workshop-document-notarization/lessons/recipient/)
+7\. [选择交易对象](https://domakun.github.io/lessons/recipient/)
 
-8\. [启用公证更新](https://domakun.github.io/nem2-workshop-document-notarization/lessons/notarization-updates/)
+8\. [启用公证更新](https://domakun.github.io/lessons/notarization-updates/)
 
 ### 实验 4 - 共同签署公证书
 
-9\. [多重签署公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/co-signed-notarization/)
+9\. [多重签署公证](https://domakun.github.io/lessons/co-signed-notarization/)
 
-10\.[转让公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/transfer-notarization/)
+10\.[转让公证](https://domakun.github.io/lessons/transfer-notarization/)
 
 
 ### 实验 5 - 接下来的工作
 
-11\. [委托公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/delegated-notarization/)
+11\. [委托公证](https://domakun.github.io/lessons/delegated-notarization/)
 
-12\. [接下来的工作: Apostille图书馆](https://domakun.github.io/nem2-workshop-document-notarization/lessons/future-work/)
+12\. [接下来的工作: Apostille图书馆](https://domakun.github.io/lessons/future-work/)
