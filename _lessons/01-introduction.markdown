@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "介绍"
+permalink: /lessons/introduction/
+---
+
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sLwOEgJzh58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+现实世界中存在的像是公证人等的公证服务,对许多重要文件的独立验证提供了很大的帮助。在重要文件盖上公证人印章和在把文件在法庭上宣读有相同的效果。 - 也就是说，您能证明文件中的内容是有效的。
+
+## 传统的文件公证需要什么?
+
+为了把文件盖上公证人印章，您需要执行以下操作：
+
+* 两份身份证明（政府签发的带照片的身份证和另一张至少带有您的姓名的证件）；
+* 一份处于公证下的口头协议，您应在口头协议中表示了解文件内容，同时证明该文件内容是有效的；
+* 在公证人的见证下签署文件；
+* 公证人在文件上加盖印章；
+* 文件最终完成公证。
+
+## 区块链技术
+
+比特币是在区块链技术中的一次重大突破中出现的。多年来，没有独立和高信誉第三方存在,是双方建立信任的难题，这也是许多行业发展的阻碍。除此之外，免除公证人服务费用的需求也是大家所期待的。(想想Uber、AirBnB或其他公证服务).
+
+区块链的核心功能之一包含了**历史记录不可更改性** -  一旦经过验证就无法更改的历史记录。这一突破性的数字空间解决方案具有巨大的价值，并开始在许多行业中传播。
+
+在这次学习中,你将学到如何利用NEM区块链功能构建公证系统来加载时间戳和验证公证。
+
+文字改编自Psyder, Aerin. Apostille Tutorial. NEM blog, 2017. [Apostille Tutorial](https://blog.nem.io/apostille-tutorial/). NEM blog, 2017.
