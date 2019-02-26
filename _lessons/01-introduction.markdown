@@ -6,7 +6,7 @@ permalink: /lessons/introduction/
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sLwOEgJzh58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-公证人等公证服务在现实世界中普遍存在着。公正服务对许多重要文件的独立验证提供了很大的帮助。在重要文件中加盖公证人印章和在这份文件在法庭上宣读产生了同样的效果。 - 也就是说，您能证明文件中的内容是有效的。
+公证人等公证服务在现实世界中普遍存在着。公正服务对许多重要文件的独立验证提供了很大的帮助。在重要文件中加盖公证人印章和在这份文件在法庭上宣读产生了同样的效果。 - 也就是说，您能证明该文件中的内容是有效的。
 
 ## 传统的文件公证需要什么?
 
