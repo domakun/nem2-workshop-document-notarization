@@ -12,15 +12,15 @@ Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间
 
 NEM基于[account（账户）](https://nemtech.github.io/concepts/account.html)，由[transaction(交易)](https://nemtech.github.io/concepts/transaction.html)驱动。一个账户具备以下权能:
 
-* 持有资产；
-* 拥有唯一标识性；
-* 通过向其他账户发布[assets（资产）](https://nemtech.github.io/concepts/mosaic.html)交易和信息来改变区块链状态。
+  * 持有资产；
+  * 拥有唯一标识性；
+  * 通过向其他账户发布[assets（资产）](https://nemtech.github.io/concepts/mosaic.html)交易和信息来改变区块链状态。
 
 一个账户主要由三个部分组成：
 
-* **Private key**（私钥）:一串对整个账户持有控制权限的字符串。
-* **Public key**（公钥）:公钥由私钥派生，可网络中识别您的帐户。与任何人分享您的公钥是安全的。
-* **Address**（地址）:地址由公钥派生，你将经常选择对外分享派生的地址，因为地址更简短并且包含了更多信息。
+  * **Private key**（私钥）:一串对整个账户持有控制权限的字符串。
+  * **Public key**（公钥）:公钥由私钥派生，可网络中识别您的帐户。与任何人分享您的公钥是安全的。
+  * **Address**（地址）:地址由公钥派生，你将经常选择对外分享派生的地址，因为地址更简短并且包含了更多信息。
 
 ![diagram-notarization]({{ site.baseurl }}/assets/images/diagram-notarization.png)
 
@@ -52,35 +52,35 @@ $> cat addresses.yaml
 
 在NEM2-CLI中将第一个帐户作为配置文件加载，这个帐户代表了Alice。
 
-{% highlight bash %}
-$> nem2-cli profile create
-Introduce network type (MIJIN_TEST, MIJIN, MAIN_NET, TEST_NET): MIJIN_TEST
-Introduce NEM 2 Node URL. (Example: http://localhost:3000): http://localhost:3000
-Insert profile name (blank means default and it could overwrite the previous profile): alice
-New Account:    SBFSSN-MF5DOC-Q7S62D-ALYPXT-6KZM44-RT367B-VWSE
-Public Key:     3F2842ABC234D068B06625D01224D9E62D9767C79E4DF7BB5F562869DC6539FD
-Private Key:    6D...80
-{% endhighlight %}
+  {% highlight bash %}
+  $> nem2-cli profile create
+  Introduce network type (MIJIN_TEST, MIJIN, MAIN_NET, TEST_NET): MIJIN_TEST
+  Introduce NEM 2 Node URL. (Example: http://localhost:3000): http://localhost:3000
+  Insert profile name (blank means default and it could overwrite the previous profile): alice
+  New Account:    SBFSSN-MF5DOC-Q7S62D-ALYPXT-6KZM44-RT367B-VWSE
+  Public Key:     3F2842ABC234D068B06625D01224D9E62D9767C79E4DF7BB5F562869DC6539FD
+  Private Key:    6D...80
+  {% endhighlight %}
 
 为Alice的公证（notarizations）创建新的配置文件。
 
-{% highlight bash %}
-$> nem2-cli account generate
-Introduce network type (MIJIN_TEST, MIJIN, MAIN_NET, TEST_NET): MIJIN_TEST
-Do you want to save it? [y/n]: y
-Introduce NEM 2 Node URL. (Example: http://localhost:3000): http://localhost:3000
-Insert profile name (blank means default and it could overwrite the previous profile): alice_notarizations_wallet
-New Account:    SC5ZOIOYKHKEIJOXEFJQK5KRRE5KNZFDZTZA43BI
-Public Key:     EBEC67B604C1C549674B4B021228A0DE8975A29071E496FCCE4446DEBA15F20B
-Private Key:    41...F6
-{% endhighlight %}
+  {% highlight bash %}
+  $> nem2-cli account generate
+  Introduce network type (MIJIN_TEST, MIJIN, MAIN_NET, TEST_NET): MIJIN_TEST
+  Do you want to save it? [y/n]: y
+  Introduce NEM 2 Node URL. (Example: http://localhost:3000): http://localhost:3000
+  Insert profile name (blank means default and it could overwrite the previous profile): alice_notarizations_wallet
+  New Account:    SC5ZOIOYKHKEIJOXEFJQK5KRRE5KNZFDZTZA43BI
+  Public Key:     EBEC67B604C1C549674B4B021228A0DE8975A29071E496FCCE4446DEBA15F20B
+  Private Key:    41...F6
+  {% endhighlight %}
 
 
 您可以通过运行以下任意方式获取帐户的信息：
 
-{% highlight bash %}
-$> nem2-cli profile list
-{% endhighlight %}
+  {% highlight bash %}
+  $> nem2-cli profile list
+  {% endhighlight %}
 
 2\. 创建一个新的 .txt 文件,并在里面输入"Hello World"。需要注意的是，NEM中信息（messages）长度需要控制在``1024``个字符以内。
 
@@ -155,10 +155,10 @@ $> nem2-cli profile list
 5\. 打开 ``project/src/app/services/notarization.service.ts`` 并通过``createNotarizationTransaction``函数创建转让交易（transaction）。
 一次交易需要：
 
-* **Deadline**（最后期限）:在交易确定保存在块（block）里之前，有多少块（blocks）可以传输;
-* **Recipient**（接受者）:Alice将要发送公证的账户地址；
+  * **Deadline**（最后期限）:在交易确定保存在块（block）里之前，有多少块（blocks）可以传输;
+  * **Recipient**（接受者）:Alice将要发送公证的账户地址；
   * **Message**(消息):采用文件内容作为消息（message）；
-* **Network**（网络）:在本次练习中我们使用MIJIN_TESTNET。
+  * **Network**（网络）:在本次练习中我们使用MIJIN_TESTNET。
 
 {% highlight typescript %}
   createNotarizationTransaction(recipient: Address, message: PlainMessage) : TransferTransaction{
