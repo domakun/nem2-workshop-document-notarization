@@ -18,7 +18,7 @@ email: david@nemeurope.eu
 description: >- # this means to ignore newlines until "baseurl:"
   学习NEM区块链的共同战略和公证文件
 baseurl: "/nem2-workshop-document-notarization" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/nem2-workshop-document-notarization/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://domakun.github.io/nem2-workshop-document-notarization/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: nemtech/nem2-workshop-document-notarization/
 # Build settings
 markdown: kramdown

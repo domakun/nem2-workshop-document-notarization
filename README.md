@@ -1,74 +1,65 @@
 # nem2-workshop-document-notarization
 
-[Start][self-github-pages]
+[开始学习][self-github-pages]
 
-In this workshop you are going to learn how to prove documents existed prior to certain point in time. This document could be any digital file you can imagine in which you have an interest to notarize 
-— for example a meaningful contract, a movie script or a patent.
+在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是您可以想象的任何您有兴趣进行公证的数字文件。
+- 例如有价值的合同，电影剧本或专利。
 
-After completing the workshop, you will be able to:
+完成本次学习后，您将会获得如下技能:
 
-- Distinguish common strategies to notarize documents in blockchain.
-- Identify different uses for NEM accounts.
-- Modify the blockchain state by announcing transactions.
+- 区别区块链中的共同战略（common strategies）和公证文件（notarize documents）；
+- 认识NEM账户的各种功能；
+- 通过发布交易来改变区块链的状态。
 
-Based on the [Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf). Apostille defines how to make transferable, updatable, branded, and co-owned notarizations on NEM blockchain.
+基于[Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf)。Apostille定义了在NEM区块链上转让, 更新, 标记, 和共同公证的方法。
 
-## Requirements
+## 目标
 
-Before starting the workshop, install the following packages:
+* 开发者 (NEM 高级初学者)
+
+## 准备工作
+
+在开始学习前, 下载以下资源:
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Docker](https://docs.docker.com/install/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 * [Node](https://nodejs.org/en/download/) >= 8.9.X.
 
-## Labs
+## 实验
 
-### Lab 1 - Running Catapult and project files
+### 实验 1 - 启动投石机和项目文件
 
-1\. [Introduction](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/introduction/)
+1\. [介绍](https://domakun.github.io/nem2-workshop-document-notarization/lessons/introduction/)
 
-2\. [Private and private blockchains](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/public-and-private-blockchain/)
+2\. [公共与私有区块链](https://domakun.github.io/nem2-workshop-document-notarization/lessons/public-and-private-blockchain/)
 
-3\. [Prepare your workstation](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/prepare-your-workstation/)
-
-
-### Lab 2 - Notarizing a document
-
-4\. [Your first notarization](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/first-notarization/)
-
-5\. [Content and ownership verification](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/content-and-ownership-verification/)
-
-6\. [Confidential notarization](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/confidential-notarization/)
-
-### Lab 3 - Updating a notarization
-
-7\. [Choosing the transaction recipient](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/recipient/)
-
-8\. [Enabling notarization updates](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/notarization-updates/)
-
-### Lab 4 - Co-signed notarization
-
-9\. [Co-signed notarization](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/co-signed-notarization/)
-
-10\.[Transfer notarization](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/transfer-notarization/)
+3\. [准备工作环境](https://domakun.github.io/nem2-workshop-document-notarization/lessons/prepare-your-workstation/)
 
 
-### Lab 5 - Future work
+### 实验 2 - Notarizing文件
 
-11\. [Delegated notarization](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/delegated-notarization/)
+4\. [你的第一次公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/first-notarization/)
 
-12\. [Future work: Apostille library](https://nemtech.github.io/nem2-workshop-document-notarization/lessons/future-work/)
+5\. [内容与所有权认证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/content-and-ownership-verification/)
 
-## Contributing
+6\. [机密文件的公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/confidential-notarization/)
 
-This project is developed and maintained by NEM Foundation. Contributions are welcome and appreciated. You can find [nem2-workshop-document-notarization on GitHub][self];
-Feel free to start an issue or create a pull request. Check [CONTRIBUTING](CONTRIBUTING.md) before start.
+### 实验 3 - 公证更新
 
-## License
+7\. [选择交易对象](https://domakun.github.io/nem2-workshop-document-notarization/lessons/recipient/)
 
-Copyright (c) 2018 NEM
-Licensed under the [Apache License 2.0](LICENSE)
+8\. [启用公证更新](https://domakun.github.io/nem2-workshop-document-notarization/lessons/notarization-updates/)
 
-[self]: https://github.com/nemtech/nem2-workshop-document-notarization
-[self-github-pages]: https://nemtech.github.io/nem2-workshop-document-notarization
+### 实验 4 - 共同签署公证书
+
+9\. [多重签署公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/co-signed-notarization/)
+
+10\.[转让公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/transfer-notarization/)
+
+
+### 实验 5 - 接下来的工作
+
+11\. [委托公证](https://domakun.github.io/nem2-workshop-document-notarization/lessons/delegated-notarization/)
+
+12\. [接下来的工作: Apostille图书馆](https://domakun.github.io/nem2-workshop-document-notarization/lessons/future-work/)
