@@ -46,7 +46,7 @@ git clone https://github.com/nemtech/nem2-workshop-document-notarization.git
 npm install -g typescript
 {% endhighlight %}
 
-3\. 启动 ``project``.
+3\. 启动 ``project``
 
 {% highlight bash %}
 cd project
@@ -56,7 +56,7 @@ npm start
 
 ## 安装NEM2-CLI
 
-**NEM2-CLI** 能帮助您在执行终端中方便地使用常用命令，即使用它与区块链交互，设置和帐户，发送资金等。
+**NEM2-CLI** 能帮助您在终端中方便地使用常用命令，即使用它与区块链交互，设置和帐户，发送资金等。
 
 通过npm安装 **nem2-cli**
 

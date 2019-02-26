@@ -10,7 +10,7 @@ permalink: /lessons/confidential-notarization/
 
 ## 背景
 
-A **hash function（哈希函数）** 用于将任意大小的数据映射到固定大小的数据。哈希函数只能以一种方式工作，这表示没有人能够恢复原始内容。例如，把sha256哈希算法应用于任何文件后，此文件将被转换为256位长度的字符串。
+**hash function（哈希函数）** 用于将任意大小的数据映射到固定大小的数据。哈希函数只能以一种方式工作，这表示没有人能够恢复原始内容。例如，把sha256哈希算法应用于任何文件后，此文件将被转换为256位长度的字符串。
 
     ℹ️ 虽然无法恢复原始内容，但简单的单词和短句总是生成相同的256位哈希值。
 
@@ -20,7 +20,7 @@ A **hash function（哈希函数）** 用于将任意大小的数据映射到固
 
 ## 实现方法
 
-1\. 打开`project/src/app/components/createNotarization.component.ts`, 并编辑 ``onFileChange()``函数。此函数将在文件拖入公证面板后调用，将SHA256算法把哈希函数作用于文件的内容。
+1\. 打开`project/src/app/components/createNotarization.component.ts`, 并修改 ``onFileChange()``函数。此函数将在文件拖入公证面板后调用，将SHA256算法把哈希函数作用于文件的内容。
 
 {% highlight typescript %}
   onFileChange(){

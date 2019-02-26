@@ -4,7 +4,7 @@ title:  "你的第一次公证"
 permalink: /lessons/first-notarization/
 ---
 
-Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间点已经存在，且她拥有文件访问权限。这份文件可以是任意有公证价值的数字文件。如有意义的合同，电影剧本或专利。
+Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间点已经存在且她拥有文件访问权限。这份文件可以是任意有公证价值的数字文件。比如有价值的合同，电影剧本或专利。
 
 在第一次尝试中,您将在区块链中保存文件的全部内容。一般来说，我们不推荐在区块链上储存大量文件数据。第一种方法将指导我们在以下练习中升级解决方案。
 
@@ -18,9 +18,9 @@ NEM基于[account（账户）](https://nemtech.github.io/concepts/account.html)�
 
 一个账户主要由三个部分组成：
 
-* **Private key**（私钥）: 一串对整个账户持有控制权限的字符串。
-* **Public key**（公钥）: 公钥由私钥派生，可网络中识别您的帐户。与任何人分享您的公钥是安全的。
-* **Address**（地址）:  地址由公钥派生，你将经常选择对外分享派生的地址，因为地址更简短并且包含了更多信息。
+* **Private key**（私钥）:一串对整个账户持有控制权限的字符串。
+* **Public key**（公钥）:公钥由私钥派生，可网络中识别您的帐户。与任何人分享您的公钥是安全的。
+* **Address**（地址）:地址由公钥派生，你将经常选择对外分享派生的地址，因为地址更简短并且包含了更多信息。
 
 ![diagram-notarization]({{ site.baseurl }}/assets/images/diagram-notarization.png)
 
@@ -33,13 +33,13 @@ NEM基于[account（账户）](https://nemtech.github.io/concepts/account.html)�
 
 接下来，A将对B发布一次交易，并把要公证的文件内容添加为消息。
 
-如果这次交易有效，它将被 [保存在块（block）里](https://nemtech.github.io/concepts/block.html)。在顶部添加新块（block）时，您可以想到，交易将在区块链中长久保存。
+如果这次交易有效，它将被保存在[块（block）](https://nemtech.github.io/concepts/block.html)里。在顶部添加新块（block）时，您可以想到，交易将在区块链中长久保存。
 
-在区块链中执行操作会产生费用，因为向验证和保护网络的人提供激励是必要的。费用将通过NEM网络的基础加密货币XEM来支付。
+在区块链中执行操作会产生费用，因为向检验和保护网络的人提供激励是必要的。费用将通过NEM网络的基础加密货币XEM来支付。
 
     ℹ️ 在私有网络（private network）中，您可以将交易费用设置为0。
 
-接下来我们不再创建新帐户，而是使用已有XEM的帐户。
+接下来我们不创建新帐户，而是使用已有XEM的帐户。
 
 1\. 打开命令行（terminal）并进入到已下载Catapult Bootstrap Service的目录。
 {% highlight bash %}
@@ -50,7 +50,7 @@ $> cat addresses.yaml
 
 在nemesis_addresses下，您可以找到包含XEM的密钥对。
 
-在NEM2-CLI中将第一个帐户作为配置文件加载。这个帐户代表了Alice。
+在NEM2-CLI中将第一个帐户作为配置文件加载，这个帐户代表了Alice。
 
 {% highlight bash %}
 $> nem2-cli profile create
@@ -155,10 +155,10 @@ $> nem2-cli profile list
 5\. 打开 ``project/src/app/services/notarization.service.ts`` 并通过``createNotarizationTransaction``函数创建转让交易（transaction）。
 一次交易需要：
 
-* **Deadline**（最后期限）: 在交易必须包含在块里（block）之前，有多少块（blocks）可以传输;
-* **Recipient**（接受者）: Alice将要发送公证的账户地址；
-  * **Message**(消息): 采用文件内容作为消息（message）；
-* **Network**（网络）: 在本次练习中我们使用MIJIN_TESTNET。
+* **Deadline**（最后期限）:在交易确定保存在块（block）里之前，有多少块（blocks）可以传输;
+* **Recipient**（接受者）:Alice将要发送公证的账户地址；
+  * **Message**(消息):采用文件内容作为消息（message）；
+* **Network**（网络）:在本次练习中我们使用MIJIN_TESTNET。
 
 {% highlight typescript %}
   createNotarizationTransaction(recipient: Address, message: PlainMessage) : TransferTransaction{
@@ -174,7 +174,7 @@ $> nem2-cli profile list
 {% endhighlight %}
 
 
-6\.保存更改并返回到公证面板。拖放你的.txt文件,并粘贴 Alice的公证钱包地址(B)和Alice的私钥(A)来签署公证。接下来,点击``Notarize``将公证发布在网络上。
+6\.保存更改并返回到公证面板。拖入你的.txt文件,并粘贴 Alice的公证钱包地址(B)和Alice的私钥(A)来签署公证。接下来,点击``Notarize``将公证发布在网络上。
 
 ![screenshot-public-notarization]({{ site.baseurl }}/assets/images/screenshot-public-notarization.png)
 

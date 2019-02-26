@@ -4,19 +4,19 @@ title:  "转让公证"
 permalink: /lessons/transfer-notarization/
 ---
 
-## Background
+## 背景
 
-Alice想把公证转交给Bob。公证类型是 **2-of-2 multisig**。回顾前通过一个模块，我们知道只有cosignatories能够在multisig账号宣布交易。如果Alice把她自己从cosignatories中删除（remove），Bob将是唯一一个允许其发布交易的人。
+Alice想把公证转交给Bob。公证类型是 **2-of-2 多重签名（2-of-2 multisig）**。通过回顾前一个模块，我们知道只有共同签署者（cosignatories）能够在多重签名（multisig）账号发布交易。如果Alice把她自己从共同签署者（cosignatories）中删除，那么Bob将成为唯一一个允许其发布交易的人。
 
-multisig合约 **editable（可编辑）**。Alice可以通过更改multisig帐户合同，把自己从账户中删除。我们把``minRemoval``设置为1后，从帐户中删除某人只需要一个cosignature（共同签署者）。
+multisig合约 **editable（可编辑）**。Alice可以通过更改多重签名帐户（multisig account）合约，把自己从账户中删除。我们把``minRemoval``设置为1后，从帐户中删除某人只需要一个cosignature（共同签署者）。
 
-从此时起，Bob将成为唯一允许从该帐户转移交易的人。公证类型将变成 **1-of-1 multisig**。
+从此时起，Bob成为了唯一允许从该帐户转移交易的人。公证类型将变成 **（1-of-1 多重签名）1-of-1 multisig**。
 
 ![diagram-transfer]({{ site.baseurl }}/assets/images/diagram-transfer.png)
 
 ## 实现方法
 
-1\. 打开 ``Create multisig``标签页并点击``Edit multisig``.
+1\. 打开 ``Create multisig``标签页并点击``Edit multisig``。
 
 {% highlight bash %}
 $> nem2-cli account generate

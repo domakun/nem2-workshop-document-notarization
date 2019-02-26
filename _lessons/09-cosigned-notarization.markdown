@@ -10,9 +10,9 @@ permalink: /lessons/co-signed-notarization/
 
 Alice和Bob已达成协议，并在数字文件中将协议正式化。他们希望共同为文档添加签名和时间戳。
 
-NEM可以生成 **multisignature accounts（多重签署公证）**。当你将账户转换为[multisig（多重签名）](https://nemtech.github.io/concepts/multisig-account.html)后,这个账户将不能独自发布交易。它需要其他帐户（称为共同签署者cosignatories）一起来宣布它们的交易。
+NEM可以生成 **multisignature accounts（多重签署公证）**。当你将账户转换为[multisig（多重签名）](https://nemtech.github.io/concepts/multisig-account.html)后,这个账户就不能独自发布交易。它需要其他帐户（称为共同签署者cosignatories）一起来宣布它们的交易。
 
-大多数时候，我们不强制要求所有共同签署者（asset account）来参与交易。合约制定时规定了可达成协议需要的最少共同签署者数量。之后可以改变这些属性以满足几乎所有需求。
+大多数时候，我们不强制要求所有共同签署者（asset account）来参与交易事务。合约制定时规定了可达成协议需要的最少共同签署者数量。之后可以改变这些属性以满足几乎所有需求。
 
 要牢记的一些重要事项：
 
@@ -28,9 +28,9 @@ NEM可以生成 **multisignature accounts（多重签署公证）**。当你将�
 
 ## 实现方法
 
-根据我们已知解读记录的方式，公证被认为是有效的。 在这种情况下，我们将考虑只有从同一公证帐户发送的邮件才有效。
+根据我们已知解读记录的方式，公证被认为是有效的。在这个案例中，我们认为只有从同一公证帐户发送的邮件才有效。
 
-1\. 打开 ``Create deterministic account`` 选项卡。 为数字文档创建一个新的确定性帐户，并使用Alice的私钥对其进行签名。
+1\. 打开``Create deterministic account``选项卡。为数字文档创建一个新的确定性帐户，并使用Alice的私钥对其进行签名。
 
 2\. 为Bob创建一个账户。
 

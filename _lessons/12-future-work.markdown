@@ -10,6 +10,6 @@ permalink: /lessons/future-work/
 
 ## Apostille图书馆
 
-本次学长实施的一些基本功能可以重复用于其他公证项目。
+本次学习实施的一些基本功能可以重复用于其他公证项目。
 
 如果您愿意编写一些公证系统，请查看[Apostille库]（https://apostille.io）。该库在NEM上实现可转移，可更新和可共同拥有的公证，以一种通用的方式同意解读区块链。
