@@ -8,11 +8,11 @@ permalink: /lessons/co-signed-notarization/
 
 ![recipient-strategy-sink]({{ site.baseurl }}/assets/images/diagram-multisig.png)
 
-Alice和Bob已达成协议，并在数字文件中将协议正式化。 他们希望共同为文档添加到签名和时间戳。
+Alice和Bob已达成协议，并在数字文件中将协议正式化。他们希望共同为文档添加签名和时间戳。
 
-NEM允许产生 **multisignature accounts（多重签署公证）**。当你将账户转换为[multisig（多重签名）](https://nemtech.github.io/concepts/multisig-account.html)后,这个账户将不能单独宣布交易。 它需要其他帐户（称为共同签署者cosignatories）一起来宣布它们的交易。
+NEM可以生成 **multisignature accounts（多重签署公证）**。当你将账户转换为[multisig（多重签名）](https://nemtech.github.io/concepts/multisig-account.html)后,这个账户将不能独自发布交易。它需要其他帐户（称为共同签署者cosignatories）一起来宣布它们的交易。
 
-大多数时候，我们并非总是强制需要所有共同签署者来协调交易。合约制定时规定了可达成协议需要的最少共同签署者数量。之后可以编辑这些属性以满足几乎所有需求。
+大多数时候，我们不强制要求所有共同签署者（asset account）来参与交易。合约制定时规定了可达成协议需要的最少共同签署者数量。之后可以改变这些属性以满足几乎所有需求。
 
 要牢记的一些重要事项：
 
@@ -34,27 +34,27 @@ NEM允许产生 **multisignature accounts（多重签署公证）**。当你将�
 
 2\. 为Bob创建一个账户。
 
-3\. 打开``Create Multisig Account`` 选项卡。创建一个multisig帐户:
+3\. 打开``Create Multisig Account``选项卡。创建一个multisig帐户:
 
-我们正在使用一种叫做 [aggregate transaction](https://nemtech.github.io/concepts/aggregate-transaction.html)的新型交易。你可以[在这里](https://github.com/nemtech/nem2-workshop-document-notarization/blob/v0.1.0/project/src/app/components/createCosignedNotarization/createCosignedNotarization.component.ts#L48).查看。
+我们正在使用一种叫做 [aggregate transaction（汇总交易）](https://nemtech.github.io/concepts/aggregate-transaction.html)的新型交易。你可以[在这里](https://github.com/nemtech/nem2-workshop-document-notarization/blob/v0.1.0/project/src/app/components/createCosignedNotarization/createCosignedNotarization.component.ts#L48)查看。
 
-- **Multisig private key**（Multisig 私钥）: 公证私钥（确定性）；
-- **Cosignatories to add**（要添加的Cosignatories）: Alice和 Bob's私钥；
+- **Multisig private key**（多重签名私钥）: 公证私钥（确定性）；
+- **Cosignatories to add**（将要添加的共同签署者）: Alice和 Bob's私钥；
 - **Min Approval**（最小赞同人数）: 2, 意味着需要两个签名才能宣布此帐户的交易；
 - **Min Removal**（最小剔除人数）: 1，意味着从multisig帐户中删除另一个共同签署者(cosignature)只需要一个共同签名（cosignatory）。
 
 
 ![screenshot-multisig-account]({{ site.baseurl }}/assets/images/screenshot-multisig-account.png)
 
-等待直到交易得到确认。
+静待交易得到确认。
 
 4\. 打开``Cosigned Notarization``标签，发布签署的公证书。
 
-- **File**（文件）: test.txt；
-- **Multisig public key**（Multisig 公钥）: 公证公钥（确定性）；
-- **Signer private key**（签名者私钥）: Alice's的私钥。
+- **File**（文件）:test.txt；
+- **Multisig public key**（Multisig 公钥）:公证公钥（确定性）；
+- **Signer private key**（签名者私钥）:Alice's的私钥。
 
-点击``Notarize`` 然后等待，直到你拿到 **"Notarization pending to be cosigned with hash A8...E6"** 这条消息。
+点击``Notarize``然后等待 **"Notarization pending to be cosigned with hash A8...E6"** 这条消息地返回。
 
 
 5\. Bob也必须参与交易事务，因为我们将``minApproval``设置为2。

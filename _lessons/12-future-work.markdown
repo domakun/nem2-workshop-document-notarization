@@ -4,7 +4,7 @@ title:  "接下来的工作: Apostille图书馆"
 permalink: /lessons/future-work/
 ---
 
-在本次学习中，您通过构建公证系统来学习了一些NEM区块链功能。 请记住如何创造性地组合NEM帐户，以便您可以创建完整的区块链解决方案。
+在本次学习中，您通过构建公证系统来学习了一些NEM区块链功能。请记住如何创造性地组合NEM帐户以便您可以实现完整的区块链解决方案。
 
 如果您想学习如何组织其他NEM内置功能, [访问NEM开发人员中心](https://nemtech.github.io/)或继续[NEM应用于供应链学习](https://nemtech.github.io/nem2-workshop-nem-applied-to-supply-chain/lessons/prepare-your-workstation/).
 

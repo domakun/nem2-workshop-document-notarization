@@ -6,11 +6,11 @@ permalink: /lessons/transfer-notarization/
 
 ## Background
 
-Alice想把公证书转交给Bob。公证类型是 **2-of-2 multisig**。 回顾前一个模块，只有cosignatories能够在multisig账号宣布交易。 如果Alice把她自己从cosignatories中删除（remove），Bob将是唯一一个允许其发布交易的人。
+Alice想把公证转交给Bob。公证类型是 **2-of-2 multisig**。回顾前通过一个模块，我们知道只有cosignatories能够在multisig账号宣布交易。如果Alice把她自己从cosignatories中删除（remove），Bob将是唯一一个允许其发布交易的人。
 
-multisig合约 **editable（可编辑）**。Alice可以更改multisig帐户合同，把自己从账户中删除。 我们将``minRemoval``设置为1，因此从帐户中删除某人只需要一个cosignature。
+multisig合约 **editable（可编辑）**。Alice可以通过更改multisig帐户合同，把自己从账户中删除。我们把``minRemoval``设置为1后，从帐户中删除某人只需要一个cosignature（共同签署者）。
 
-从此时起，Bob将成为唯一允许从该帐户转移交易的人。 公证类型将成为 **1-of-1 multisig**。
+从此时起，Bob将成为唯一允许从该帐户转移交易的人。公证类型将变成 **1-of-1 multisig**。
 
 ![diagram-transfer]({{ site.baseurl }}/assets/images/diagram-transfer.png)
 
@@ -32,7 +32,7 @@ Private Key:    88...92
 2\. 填表:
 
 * **Signer private key**（签名者私钥）: Alice的私钥；
-* **Multisig public key**（Multisig公钥）: 公证的公钥（确定性）；
+* **Multisig public key**（多重签名公钥）: 公证的公钥（确定性）；
 * **Cosignatories to remove**（要删除的签名者）: Alice的公钥；
 * **Min Approval Delta**（最小批注增量）:-1。 当我们删除其中一个cosignatories，并且minApproval设置为2时，减去1使其成为 1-of-1。
 

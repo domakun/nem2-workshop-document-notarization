@@ -6,17 +6,17 @@ permalink: /lessons/delegated-notarization/
 
 # 背景
 
-公共网络需要收费来发布交易。Bob想要公证数字文档，但他对XEM或者对区块链技术没有有足够的了解。因此他选择将复杂的部分委托给专门的公证服务
+在公共网络发布交易会收取费用。Bob想要公证数字文档，但他对XEM或者对区块链技术没有有足够的了解。因此他选择将复杂的部分委托给专门的公证服务组织。
 
-Bob将使用他的帐户签署文件内容。在将文件的哈希码发送给专业公司之后，专业公司将帮Bob把转让交易发布到区块链。
+Bob将使用他的帐户签署文件内容。在将文件的哈希码发送给专业组织之后，专业组织将帮Bob把转让交易发布到区块链。
 
-他可以通过使用账户对内容进行签名证明他已经得知该文件的内容。
+他可以通过使用账户对内容进行签名证明他已知该文件的内容。
 
 ![delegated-notarization]({{ site.baseurl }}/assets/images/diagram-delegated-notarization.png)
 
 ## 实现方法
 
-1\. 创建一个新帐户以代表公证公司。
+1\. 创建一个新帐户来代表公证服务公司。
 
 {% highlight bash %}
 $> nem2-cli account generate

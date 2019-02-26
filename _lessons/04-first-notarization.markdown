@@ -4,19 +4,19 @@ title:  "你的第一次公证"
 permalink: /lessons/first-notarization/
 ---
 
-Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间已经存在且她勇有文件访问权限。这份文件可以是任意有公证价值的数字文件。如有意义的合同，电影剧本或专利。
+Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间点已经存在，且她拥有文件访问权限。这份文件可以是任意有公证价值的数字文件。如有意义的合同，电影剧本或专利。
 
 在第一次尝试中,您将在区块链中保存文件的全部内容。一般来说，我们不推荐在区块链上储存大量文件数据。第一种方法将指导我们在以下练习中升级解决方案。
 
 ## 背景
 
-NEM基于[账户](https://nemtech.github.io/concepts/account.html)，由[交易](https://nemtech.github.io/concepts/transaction.html)驱动。一个账户允许:
+NEM基于[account（账户）](https://nemtech.github.io/concepts/account.html)，由[transaction(交易)](https://nemtech.github.io/concepts/transaction.html)驱动。一个账户具备以下权能:
 
 * 持有资产；
-* 具备唯一标识性；
-* 通过向其他账户发布[资产](https://nemtech.github.io/concepts/mosaic.html)交易和信息来改变区块链状态。
+* 拥有唯一标识性；
+* 通过向其他账户发布[assets（资产）](https://nemtech.github.io/concepts/mosaic.html)交易和信息来改变区块链状态。
 
-一个账户主要包括三个部分：
+一个账户主要由三个部分组成：
 
 * **Private key**（私钥）: 一串对整个账户持有控制权限的字符串。
 * **Public key**（公钥）: 公钥由私钥派生，可网络中识别您的帐户。与任何人分享您的公钥是安全的。
@@ -26,20 +26,20 @@ NEM基于[账户](https://nemtech.github.io/concepts/account.html)，由[交易]
 
 ## 解决方案
 
-我们将创建两个账户
+现在我们将创建两个账户
 
 * A: Alice的账户；
 * B: Alice用于保存公证的钱包。
 
-接下来，A将对B发布一次交易，并要公证的文件内容添加为消息。
+接下来，A将对B发布一次交易，并把要公证的文件内容添加为消息。
 
-如果这次交易有效，它将被 [包裹在块（block）里](https://nemtech.github.io/concepts/block.html)。当顶部添加新块（block）时，您可以猜想交易将在区块链中保留。
+如果这次交易有效，它将被 [保存在块（block）里](https://nemtech.github.io/concepts/block.html)。在顶部添加新块（block）时，您可以想到，交易将在区块链中长久保存。
 
-在区块链中执行操作会产生成本。这对于为验证和保护网络的人提供激励是必要的。 费用将通过XEM支付，XEM是NEM网络的基础加密货币。
+在区块链中执行操作会产生费用，因为向验证和保护网络的人提供激励是必要的。费用将通过NEM网络的基础加密货币XEM来支付。
 
     ℹ️ 在私有网络（private network）中，您可以将交易费用设置为0。
 
-接下来我们不使用创建新帐户，而是使用已有XEM的帐户。
+接下来我们不再创建新帐户，而是使用已有XEM的帐户。
 
 1\. 打开命令行（terminal）并进入到已下载Catapult Bootstrap Service的目录。
 {% highlight bash %}
@@ -48,9 +48,9 @@ $> cd  build/generated-addresses/
 $> cat addresses.yaml
 {% endhighlight %}
 
-在nemesis_addresses下，您将找到包含XEM的密钥对。
+在nemesis_addresses下，您可以找到包含XEM的密钥对。
 
-在NEM2-CLI中将第一个帐户作为配置文件加载。 此帐户标识Alice。
+在NEM2-CLI中将第一个帐户作为配置文件加载。这个帐户代表了Alice。
 
 {% highlight bash %}
 $> nem2-cli profile create
@@ -82,11 +82,11 @@ Private Key:    41...F6
 $> nem2-cli profile list
 {% endhighlight %}
 
-2\. 创建一个新的 .txt文件,并在里面输入"Hello World"。NEM信息（messages）长度需要控制在``1024``个字符以内。
+2\. 创建一个新的 .txt 文件,并在里面输入"Hello World"。需要注意的是，NEM中信息（messages）长度需要控制在``1024``个字符以内。
 
-    您可以将内容拆分为多个传输交易（transactions），但最好不要在区块链中存储大量数据。 在下一个练习中，您将看到如何解决此问题。
+    您可以选择把内容拆分为多个传输交易（transactions），但最好不要在区块链中存储大量数据。在下一个练习中，您将看到如何解决这个问题。
 
-3\. 在浏览器中打开 [公证仪表板（Notarization dashboard）](http://localhost:4200/) 你将看到一下内容:
+3\. 在浏览器中打开 [公证仪表板（Notarization dashboard）](http://localhost:4200/) 您将看到一下内容:
 
 ![screenshot-notarization-panel]({{ site.baseurl }}/assets/images/screenshot-notarization-panel.png)
 
@@ -94,7 +94,7 @@ $> nem2-cli profile list
 
 4\. 回顾``project/src/app/components/createNotarization.component.ts``中的 `notarize()`函数
 
-您将看到公证交易已创建，然后由帐户签名并最终在网络上发布。
+您将可以看到公证交易（transaction）已创建，然后由帐户签名并最终在网络上发布。
 
 {% highlight typescript %}
   notarize(form) {
@@ -115,11 +115,11 @@ $> nem2-cli profile list
 {% endhighlight %}
 
 
-一旦帐户宣布交易，服务器将始终返回OK响应。
+一旦帐户发布交易，服务器将始终返回OK响应。
 
-交易消息传输到网络后立即获得``未确认状态（unconfirmed status）``状态。只有当交易（transaction）信息包含在一个块中时，它才会收到确认。
+交易消息传输到网络后立即获得``未确认状态（unconfirmed status）``状态。只有当交易（transaction）信息保存在一个块（block）中时，它才会收到确认。
 
-收到OK响应并不意味着交易有效。 我们建议在宣布交易有效前监控交易状态。
+收到OK响应并不意味着交易有效。我们建议在宣布交易有效前密切监控交易状态。
 
 {% highlight typescript %}
 

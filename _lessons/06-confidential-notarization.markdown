@@ -4,23 +4,23 @@ title:  "机密文件的公证"
 permalink: /lessons/confidential-notarization/
 ---
 
-在接下来的模块中,任何拥有区块链读取权限的人都可以看到带时间戳的文档内容。此外，字符有限制，因此我们无法对大型文档进行公证。
+在接下来的模块中,任何拥有区块链读取权限的人都可以看到带时间戳的文档内容。此外，字符长度的限制使得我们无法对大型文档进行公证。
 
 现在，Alice想公证 **confidential document（机密文件）**，也就是说她希望将文件的内容保密。但是，她必须能够证明文件有效性且她是文件所有者。
 
 ## 背景
 
-A **hash function（哈希函数）** 用于将任意大小的数据映射到固定大小的数据。哈希函数只能以一种方式工作，这表示没有人能够恢复原始内容。例如，使用sha256哈希算法应用于任何文件,将把此文件转换为256位长度的字符串。
+A **hash function（哈希函数）** 用于将任意大小的数据映射到固定大小的数据。哈希函数只能以一种方式工作，这表示没有人能够恢复原始内容。例如，把sha256哈希算法应用于任何文件后，此文件将被转换为256位长度的字符串。
 
     ℹ️ 虽然无法恢复原始内容，但简单的单词和短句总是生成相同的256位哈希值。
 
 ![confidential-notarization]({{ site.baseurl }}/assets/images/diagram-confidential-notarization.png)
 
-在本练习中，您将对文件的内容应用哈希函数。 然后，我们将发出具有固定长度哈希值的交易（transaction）。这可以实现使用单次交易对大文件添加时间戳。
+在本练习中，您将使用哈希函数对文件的内容进行操作。然后，我们可以发出具有固定长度哈希值的交易（transaction）。这可以实现使用在单次交易中对大文件添加时间戳。
 
 ## 实现方法
 
-1\. 打开`project/src/app/components/createNotarization.component.ts`, 并编辑 ``onFileChange()``函数。此函数将在文件拖入公证面板后调用，将SHA256算法将哈希函数作用于文件的内容。
+1\. 打开`project/src/app/components/createNotarization.component.ts`, 并编辑 ``onFileChange()``函数。此函数将在文件拖入公证面板后调用，将SHA256算法把哈希函数作用于文件的内容。
 
 {% highlight typescript %}
   onFileChange(){

@@ -21,7 +21,7 @@ cd catapult-service-bootstrap
 docker-compose up
 {% endhighlight %}
 
-2\. 下载映像并运行服务后，检查是否可以获取第一个块信息：
+2\. 下载好映像并运行服务后，请先检查是否可以获取第一个块信息：
 
 {% highlight bash %}
 curl localhost:3000/block/1
@@ -36,7 +36,7 @@ curl localhost:3000/block/1
 git clone https://github.com/nemtech/nem2-workshop-document-notarization.git
 {% endhighlight %}
 
-在 ``project`` 文件夹下, 是您将要在工作空间中编辑的代码。它附带 **NEM2 Software Development Kit** (第三层). NEM2-SDK 是创建其他工具，库或应用程序等NEM2组件的主要软件开发工具。
+在 ``project`` 文件夹下的是您将要在工作空间中编辑的代码。它附带 **NEM2 Software Development Kit** (第三层)。NEM2-SDK是创建其他工具，库或应用程序等NEM2组件的主要软件开发工具。
 
 在本次工作空间中，我们将使用 **Typescript SDK**。
 
@@ -56,7 +56,7 @@ npm start
 
 ## 安装NEM2-CLI
 
-**NEM2-CLI** 让您在执行终端中方便地使用常用命令，即用它与区块链交互，设置和帐户，发送资金等。
+**NEM2-CLI** 能帮助您在执行终端中方便地使用常用命令，即使用它与区块链交互，设置和帐户，发送资金等。
 
 通过npm安装 **nem2-cli**
 
