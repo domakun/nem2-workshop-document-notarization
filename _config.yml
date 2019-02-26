@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: NEM区块链的文件公证
+title: NEM区块链文件公证
 email: david@nemeurope.eu
 description: >- # this means to ignore newlines until "baseurl:"
   学习NEM区块链的共同战略和公证文件
