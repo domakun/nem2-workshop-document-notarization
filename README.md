@@ -1,6 +1,6 @@
 # nem2-workshop-document-notarization
 
-[开始学习][self-github-pages]
+[开始学习](https://domakun.github.io/)
 
 在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是您可以想象的任何您有兴趣进行公证的数字文件。
 - 例如有价值的合同，电影剧本或专利。

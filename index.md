@@ -4,14 +4,13 @@
 
 layout: home
 ---
-[开始学习][self-github-pages]
 
 在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是您可以想象的任何您有兴趣进行公证的数字文件。
 - 例如有价值的合同，电影剧本或专利。
 
 完成本次学习后，您将会获得如下技能:
 
-- 区别区块链中的共同战略（common strategies）和公证文件（notarize documents）；
+- 认识区块链中的共同战略（common strategies）和公证文件（notarize documents）；
 - 认识NEM账户的各种功能；
 - 通过发布交易来改变区块链的状态。
 
@@ -19,7 +18,7 @@ layout: home
 
 ## 目标
 
-* 开发者 (NEM 高级初学者)
+* 开发者 (NEM高级初学者)
 
 ## 准备工作
 
@@ -34,7 +33,7 @@ layout: home
 
 ### 实验 1 - 启动投石机和项目文件
 
-1\. [介绍](https://domakun.github.io/lessons/introduction/)
+1\. [基本介绍](https://domakun.github.io/lessons/introduction/)
 
 2\. [公共与私有区块链](https://domakun.github.io/lessons/public-and-private-blockchain/)
 
