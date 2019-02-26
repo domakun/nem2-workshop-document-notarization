@@ -4,7 +4,7 @@ title:  "多重签署公证"
 permalink: /lessons/co-signed-notarization/
 ---
 
-## Background
+## 背景
 
 ![recipient-strategy-sink]({{ site.baseurl }}/assets/images/diagram-multisig.png)
 

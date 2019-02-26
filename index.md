@@ -14,7 +14,7 @@ layout: home
 - 认识NEM账户的各种功能；
 - 通过发布交易来改变区块链的状态。
 
-基于[Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf)。Apostille定义了在NEM区块链上转让, 更新, 标记, 和共同公证的方法。
+基于[Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf)。Apostille定义了在NEM区块链上转让、更新、标记、和共同公证的方法。
 
 ## 目标
 

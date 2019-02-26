@@ -4,9 +4,9 @@ title:  "你的第一次公证"
 permalink: /lessons/first-notarization/
 ---
 
-  Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间点已经存在且她拥有文件访问权限。这份文件可以是任意有公证价值的数字文件。比如有价值的合同，电影剧本或专利。
+Alice的电脑上有一份文件，她想证明这份文件在某个特殊时间点已经存在且她拥有文件访问权限。这份文件可以是任意有公证价值的数字文件。比如有价值的合同，电影剧本或专利。
 
-  在第一次尝试中,您将在区块链中保存文件的全部内容。一般来说，我们不推荐在区块链上储存大量文件数据。第一种方法将指导我们在以下练习中升级解决方案。
+在第一次尝试中,您将在区块链中保存文件的全部内容。一般来说，我们不推荐在区块链上储存大量文件数据。第一种方法将指导我们在以下练习中升级解决方案。
 
 ## 背景
 
@@ -30,15 +30,13 @@ NEM基于[account（账户）](https://nemtech.github.io/concepts/account.html)�
 * A: Alice的账户；
 * B: Alice用于保存公证的钱包。
 
-  接下来，A将对B发布一次交易，并把要公证的文件内容添加为消息。
-
-  如果这次交易有效，它将被保存在[块（block）](https://nemtech.github.io/concepts/block.html)里。在顶部添加新块（block）时，您可以想到，交易将在区块链中长久保存。
-
-  在区块链中执行操作会产生费用，因为向检验和保护网络的人提供激励是必要的。费用将通过NEM网络的基础加密货币XEM来支付。
+接下来，A将对B发布一次交易，并把要公证的文件内容添加为消息。
+如果这次交易有效，它将被保存在[块（block）](https://nemtech.github.io/concepts/block.html)里。在顶部添加新块（block）时，您可以想到，交易将在区块链中长久保存。
+在区块链中执行操作会产生费用，因为向检验和保护网络的人提供激励是必要的。费用将通过NEM网络的基础加密货币XEM来支付。
 
     ℹ️ 在私有网络（private network）中，您可以将交易费用设置为0。
 
-  接下来我们不创建新帐户，而是使用已有XEM的帐户。
+现在我们不创建新帐户，而是使用已有XEM的帐户。
 
 <strong class='tit'>1\. 打开命令行（terminal）并进入到已下载Catapult Bootstrap Service的目录。</strong>
 {% highlight bash %}
@@ -47,9 +45,9 @@ $> cd  build/generated-addresses/
 $> cat addresses.yaml
 {% endhighlight %}
 
-  在nemesis_addresses下，您可以找到包含XEM的密钥对。
+在nemesis_addresses下，您可以找到包含XEM的密钥对。
 
-  在NEM2-CLI中将第一个帐户作为配置文件加载，这个帐户代表了Alice。
+在NEM2-CLI中将第一个帐户作为配置文件加载，这个帐户代表了Alice。
 
   {% highlight bash %}
   $> nem2-cli profile create
@@ -61,7 +59,7 @@ $> cat addresses.yaml
   Private Key:    6D...80
   {% endhighlight %}
 
-  为Alice的公证（notarizations）创建新的配置文件。
+为Alice的公证（notarizations）创建新的配置文件。
 
   {% highlight bash %}
   $> nem2-cli account generate
@@ -83,7 +81,7 @@ $> cat addresses.yaml
 
 <strong class='tit'>2\. 创建一个新的 .txt 文件,并在里面输入"Hello World"。需要注意的是，NEM中信息（messages）长度需要控制在``1024``个字符以内。</strong>
 
-    您可以选择把内容拆分为多个传输交易（transactions），但最好不要在区块链中存储大量数据。在下一个练习中，您将看到如何解决这个问题。
+您可以选择把内容拆分为多个传输交易（transactions），但最好不要在区块链中存储大量数据。在下一个练习中，您将看到如何解决这个问题。
 
 <strong class='tit'>3\. 在浏览器中打开 [公证仪表板（Notarization dashboard）](http://localhost:4200/) 您将看到以下内容:</strong>
 
