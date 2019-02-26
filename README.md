@@ -2,24 +2,24 @@
 
 [开始学习](https://domakun.github.io/)
 
-在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是您可以想象的任何您有兴趣进行公证的数字文件。
+在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是任何您可以想到的、有兴趣进行公证的数字文件。
 - 例如有价值的合同，电影剧本或专利。
 
 完成本次学习后，您将会获得如下技能:
 
-- 区别区块链中的共同战略（common strategies）和公证文件（notarize documents）；
+- 认识区块链中的常见策略和文件公证；
 - 认识NEM账户的各种功能；
 - 通过发布交易来改变区块链的状态。
 
-基于[Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf)。Apostille定义了在NEM区块链上转让, 更新, 标记, 和共同公证的方法。
+基于[Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf)。Apostille定义了在NEM区块链上转让、更新、标记、和合作公证的方法。
 
 ## 目标人群
 
-* 开发者 (NEM 高级初学者)
+* 开发者 (NEM高级初学者)
 
 ## 准备工作
 
-在开始学习前, 下载以下资源:
+在开始学习前, 请先下载以下资源:
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Docker](https://docs.docker.com/install/)
@@ -30,7 +30,7 @@
 
 ### 实验 1 - 启动投石机和项目文件
 
-1\. [介绍](https://domakun.github.io/lessons/introduction/)
+1\. [基本介绍](https://domakun.github.io/lessons/introduction/)
 
 2\. [公共与私有区块链](https://domakun.github.io/lessons/public-and-private-blockchain/)
 
