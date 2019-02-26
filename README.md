@@ -13,7 +13,7 @@
 
 基于[Apostille Whitepaper](https://nem.io/wp-content/themes/nem/files/ApostilleWhitePaper.pdf)。Apostille定义了在NEM区块链上转让, 更新, 标记, 和共同公证的方法。
 
-## 目标
+## 目标人群
 
 * 开发者 (NEM 高级初学者)
 
