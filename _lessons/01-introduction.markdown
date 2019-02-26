@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "介绍"
+title:  "introduction"
 permalink: /lessons/introduction/
 ---
 
