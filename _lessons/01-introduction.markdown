@@ -6,9 +6,9 @@ permalink: /lessons/introduction/
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/sLwOEgJzh58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  公证人等公证服务在现实世界中普遍存在着。公正服务对许多重要文件的独立验证提供了很大的帮助。在重要文件中加盖公证人印章和把这份文件在法庭上宣读产生了同样的效果，也就是说，您能证明该文件中的内容是有效的。
+&nbsp;&nbsp;公证人等公证服务在现实世界中普遍存在着。公正服务对许多重要文件的独立验证提供了很大的帮助。在重要文件中加盖公证人印章和把这份文件在法庭上宣读产生了同样的效果，也就是说，您能证明该文件中的内容是有效的。
 ## 传统的文件公证需要什么?  
-  为了在文件上加盖公证人印章，您需要执行以下操作：
+&nbsp;&nbsp;为了在文件上加盖公证人印章，您需要执行以下操作：
   * 两份身份证明（政府颁发的带照片的身份证和另一份至少带有您的姓名的证件）；
   * 一份处于公证下的口头协议，您应在口头协议中表示了解文件内容并证明该文件内容有效性；
   * 在公证人的见证下签署文件；
