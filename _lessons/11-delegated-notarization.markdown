@@ -4,7 +4,7 @@ title:  "委托公证"
 permalink: /lessons/delegated-notarization/
 ---
 
-# 背景
+## 背景
 
 在公共网络发布交易会收取费用。Bob想要公证数字文档，但他对XEM或者对区块链技术没有有足够的了解。因此他选择将复杂的部分委托给专门的公证服务组织。
 
