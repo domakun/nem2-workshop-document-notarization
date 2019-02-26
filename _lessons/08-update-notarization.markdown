@@ -12,14 +12,14 @@ Alice决定创建一个唯一代表公证数字资产的帐户。 您可以通�
 
 ## 实现方法
 
-1\. 编辑您正在公证的txt文件，将文本更改为"Lorem Ipsum"。
+<strong class='tit'>1\. 编辑您正在公证的txt文件，将文本更改为"Lorem Ipsum"。</strong>
 
 
-2\. 在浏览器中打开交易仪表板（Notarization dashboard）并发布已编辑的文件，将其作为地址来发送之前模块中已创建账户的公证。然后，用Alice的私钥签署公证
+<strong class='tit'>2\. 在浏览器中打开交易仪表板（Notarization dashboard）并发布已编辑的文件，将其作为地址来发送之前模块中已创建账户的公证。然后，用Alice的私钥签署公证</strong>
 
 ![screenshot-update-notarization]({{ site.baseurl }}/assets/images/screenshot-update-notarization.png)
 
-3\. 确认好后,前往``Get transactions``标签页。使用文件的账户公钥来获取所有交易，你现在应该能看见两项交易。
+<strong class='tit'>3\. 确认好后,前往``Get transactions``标签页。使用文件的账户公钥来获取所有交易，你现在应该能看见两项交易。</strong>
 
 ![screenshot-get-updated-notarizations]({{ site.baseurl }}/assets/images/screenshot-get-updated-notarizations.png)
 

@@ -8,7 +8,7 @@ permalink: /lessons/recipient/
 
 ![recipient-strategy-sink]({{ site.baseurl }}/assets/images/diagram-recipient-strategy-sink.png)
 
-1\. 继续向 **接收帐户（sink account）** 发送消息，您将使用该帐户存储所有公证。 您可以将其称为公证的钱包。
+<strong class='tit'>1\. 继续向 **接收帐户（sink account）** 发送消息，您将使用该帐户存储所有公证。 您可以将其称为公证的钱包。</strong>
 
 **优点**:
 * 所有公证都存储在一个地方。
@@ -20,7 +20,7 @@ permalink: /lessons/recipient/
 
 ![recipient-strategy-asset]({{ site.baseurl }}/assets/images/diagram-recipient-strategy-asset.png)
 
-2\. 文件可以代表 **数字可识别资产(digital identifiable asset)**。 为每个公证使用一个帐户，唯一地表示每个文件。
+<strong class='tit'>2\. 文件可以代表 **数字可识别资产(digital identifiable asset)**。 为每个公证使用一个帐户，唯一地表示每个文件。</strong>
 
 **优点**:
 * 公证书由资产分隔。
@@ -38,7 +38,7 @@ permalink: /lessons/recipient/
 
 ## 实现方法
 
-1\. 打开``Create deterministic account``标签页, 拖动文件并输入Alice的私钥。在点击创建后，将通过把sha256算法应用于文件名称，然后使用Alice的帐户对其进行签名来创建私钥。
+<strong class='tit'>1\. 打开``Create deterministic account``标签页, 拖动文件并输入Alice的私钥。在点击创建后，将通过把sha256算法应用于文件名称，然后使用Alice的帐户对其进行签名来创建私钥。</strong>
 
 比如:``asset_private_key = account.sign(sha256(file_name))``
 
@@ -46,6 +46,6 @@ permalink: /lessons/recipient/
 
 将帐户详细信息复制存放到安全的地方。您将在本次学习期间使用它们。
 
-2\. 返回``Create notarization``标签页并拖动.txt文件。添加资产（asset）作为交易的对象，并使用Alice的帐户签署交易。
+<strong class='tit'>2\. 返回``Create notarization``标签页并拖动.txt文件。添加资产（asset）作为交易的对象，并使用Alice的帐户签署交易。</strong>
 
 在下一个练习中，您将看到如何更新公证。

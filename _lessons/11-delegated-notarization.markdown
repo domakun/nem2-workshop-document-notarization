@@ -16,7 +16,7 @@ Bob将使用他的帐户签署文件内容。在将文件的哈希码发送给�
 
 ## 实现方法
 
-1\. 创建一个新帐户来代表公证服务公司。
+<strong class='tit'>1\. 创建一个新帐户来代表公证服务公司。</strong>
 
 {% highlight bash %}
 $> nem2-cli account generate
@@ -29,13 +29,13 @@ Public Key:     76386325576C2536F1BA239CE4FA8F24E0EBA0F2CF982C0AB1C7D928A2ECDC10
 Private Key:    A2...D5
 {% endhighlight %}
 
-2\. 打开``Create Notarization``选项卡。拖放Bob的文件（您可以使用之前的txt）。使用他的帐户签署文件的内容。
+<strong class='tit'>2\. 打开``Create Notarization``选项卡。拖入Bob的文件（您可以使用之前的txt）,使用Bob的帐户(account)签署文件的内容。</strong>
 
 ![screenshot-delegated-notarization]({{ site.baseurl }}/assets/images/screenshot-delegated-notarization.png)
 
-3\. 生成的签名将添加为交易的消息（message）。通过使用服务的私钥公证交易。
+<strong class='tit'>3\. 生成的签名将添加为交易的消息（message）。通过使用服务的私钥公证交易。</strong>
 
 您可以选择使用服务提供商的地址作为公证的接收帐户。
 
 
-4\. 当事务在块中保存后，Bob就可以验证文件的内容是否已使用自己帐户对其进行签名。
+<strong class='tit'>4\. 当事务在块中保存后，Bob就可以验证文件的内容是否已使用自己帐户对其进行签名。</strong>

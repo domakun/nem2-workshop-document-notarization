@@ -8,19 +8,28 @@ body {
   font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+h2, h4, h5, h6 {
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
-}
 
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
 a {
   color: #2780e3;
+  font-weight: 600;
+  font-size: 15px;
   &:hover {
     color: #165ba8;
   }
 }
-
+strong.tit {
+  display: inline-block;
+  padding: 16px 0px ;
+}
 .gap{
   margin-top: 30px;
 }
@@ -31,6 +40,10 @@ a {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+code {
+  word-spacing: 2px;
+  line-height: 1.8em;
 }
 
 @media screen and (min-width: 768px) {
@@ -116,7 +129,9 @@ hr {
     display: none;
   }
 }
-
+.start-wrapper h1 {
+  color: white;
+}
 .start-wrapper {
   padding-top: 60px;
   min-height: 250px;
@@ -196,7 +211,13 @@ hr {
 }
 
 .lesson li, .home li{
-  font-weight: 200;
+  font-weight: 400;
+  padding: 5px 0px;
+  font-size: 15px;
+  color: #656771;
+}
+.lesson-content p:first-of-type{
+  margin-top: 20px;
 }
 
 /* Footer */

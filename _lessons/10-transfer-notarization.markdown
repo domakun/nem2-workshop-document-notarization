@@ -16,7 +16,7 @@ multisig合约 **editable（可编辑）**。Alice可以通过更改多重签名
 
 ## 实现方法
 
-1\. 打开 ``Create multisig``标签页并点击``Edit multisig``。
+<strong class='tit'>1\. 打开 ``Create multisig``标签页并点击``Edit multisig``。<strong class='tit'>
 
 {% highlight bash %}
 $> nem2-cli account generate
@@ -29,7 +29,7 @@ Public Key:     EB770736BC20FF07682849A067423E679C7E2167BAB3CA33DE2EF9B0D088F4EF
 Private Key:    88...92
 {% endhighlight %}
 
-2\. 填表:
+<strong class='tit'>2\. 填表:</strong>
 
 * **Signer private key**（签名者私钥）: Alice的私钥；
 * **Multisig public key**（多重签名公钥）: 公证的公钥（确定性）；
@@ -39,4 +39,4 @@ Private Key:    88...92
 ![screenshot-edit-multisig-account]({{ site.baseurl }}/assets/images/screenshot-edit-multisig-account.png)
 
 
-3\. 单击``Edit multisig``按钮。 把``minRemoval``设置成1,Bob已经没有签署交易的需求了。等待直到收到网络确认交易的信息。
+<strong class='tit'>3\. 单击``Edit multisig``按钮。 把``minRemoval``设置成1,Bob已经没有签署交易的需求了。等待直到收到网络确认交易的信息。</strong>

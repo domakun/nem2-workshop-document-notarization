@@ -20,7 +20,7 @@ permalink: /lessons/confidential-notarization/
 
 ## 实现方法
 
-1\. 打开`project/src/app/components/createNotarization.component.ts`, 并修改 ``onFileChange()``函数。此函数将在文件拖入公证面板后调用，将SHA256算法把哈希函数作用于文件的内容。
+<strong class='tit'>1\. 打开`project/src/app/components/createNotarization.component.ts`, 并修改 ``onFileChange()``函数。此函数将在文件拖入公证面板后调用，将SHA256算法把哈希函数作用于文件的内容。</strong>
 
 {% highlight typescript %}
   onFileChange(){
@@ -33,7 +33,7 @@ permalink: /lessons/confidential-notarization/
   }
 {% endhighlight %}
 
-2\. 保存文件后，使用面板公证文档。
+<strong class='tit'>2\. 保存文件后，使用面板公证文档。</strong>
 
 * **File**（文件）: test.txt；
 * **Notarization address**（公证地址）: Alice的公证钱包地址；
@@ -41,7 +41,7 @@ permalink: /lessons/confidential-notarization/
 
 ![screenshot-private-notarization]({{ site.baseurl }}/assets/images/screenshot-private-notarization.png)
 
-3\. 在``Get Notarization``标签下搜索交易。
+<strong class='tit'>3\. 在``Get Notarization``标签下搜索交易。</strong>
 
 ![screenshot-get-private-notarization]({{ site.baseurl }}/assets/images/screenshot-get-private-notarization.png)
 

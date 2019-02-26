@@ -30,11 +30,11 @@ NEM可以生成 **multisignature accounts（多重签署公证）**。当你将�
 
 根据我们已知解读记录的方式，公证被认为是有效的。在这个案例中，我们认为只有从同一公证帐户发送的邮件才有效。
 
-1\. 打开``Create deterministic account``选项卡。为数字文档创建一个新的确定性帐户，并使用Alice的私钥对其进行签名。
+<strong class='tit'>1\. 打开``Create deterministic account``选项卡。为数字文档创建一个新的确定性帐户，并使用Alice的私钥对其进行签名。</strong>
 
-2\. 为Bob创建一个账户。
+<strong class='tit'>2\. 为Bob创建一个账户。</strong>
 
-3\. 打开``Create Multisig Account``选项卡。创建一个multisig帐户:
+<strong class='tit'>3\. 打开``Create Multisig Account``选项卡。创建一个multisig帐户:</strong>
 
 我们正在使用一种叫做 [aggregate transaction（汇总交易）](https://nemtech.github.io/concepts/aggregate-transaction.html)的新型交易。你可以[在这里](https://github.com/nemtech/nem2-workshop-document-notarization/blob/v0.1.0/project/src/app/components/createCosignedNotarization/createCosignedNotarization.component.ts#L48)查看。
 
@@ -48,7 +48,7 @@ NEM可以生成 **multisignature accounts（多重签署公证）**。当你将�
 
 静待交易得到确认。
 
-4\. 打开``Cosigned Notarization``标签，发布签署的公证书。
+<strong class='tit'>4\. 打开``Cosigned Notarization``标签，发布签署的公证书。</strong>
 
 - **File**（文件）:test.txt；
 - **Multisig public key**（Multisig 公钥）:公证公钥（确定性）；
@@ -57,7 +57,7 @@ NEM可以生成 **multisignature accounts（多重签署公证）**。当你将�
 点击``Notarize``然后等待 **"Notarization pending to be cosigned with hash A8...E6"** 这条消息地返回。
 
 
-5\. Bob也必须参与交易事务，因为我们将``minApproval``设置为2。
+<strong class='tit'>5\. Bob也必须参与交易事务，因为我们将``minApproval``设置为2。</strong>
 
 {% highlight bash %}
 nem2-cli transaction cosign --profile bob --hash A855F0C49B78100AFB733DF53FD6758615132E7DBBF74C7B856E4CBACF0946E6
@@ -65,4 +65,4 @@ nem2-cli transaction cosign --profile bob --hash A855F0C49B78100AFB733DF53FD6758
 
 如果一切顺利，状态应该更改为：**"Notarization pending to be cosigned with hash A8...E6"**。
 
-6\. 前往 ``Get Notarization`` 标签页, 在queand search the transaction hash once confirmed.
+<strong class='tit'>6\. 前往 ``Get Notarization`` 标签页,并在确认状态更改后，搜索交易哈希码。</strong>
