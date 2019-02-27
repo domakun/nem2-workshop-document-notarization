@@ -1,4 +1,4 @@
-# nem2-workshop-document-notarization
+﻿# nem2-workshop-document-notarization
 
 [开始学习](https://nemtechchina.github.io/)
 
@@ -62,4 +62,4 @@
 
 11\. [委托公证](https://nemtechchina.github.io/lessons/delegated-notarization/)
 
-12\. [接下来的工作: Apostille图书馆](https://nemtechchina.github.io/lessons/future-work/)
+12\. [接下来的工作: Apostille library](https://nemtechchina.github.io/lessons/future-work/)
