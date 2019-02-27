@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   了解NEM区块链上公证文件的常用策略。
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://domakun.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-repository: nem2-workshop-document-notarization 
+repository: domakun/nem2-workshop-document-notarization 
 # Build settings
 markdown: kramdown
 theme: minima
