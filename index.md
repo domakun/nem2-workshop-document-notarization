@@ -64,4 +64,4 @@ layout: home
 
 11\. [委托公证](https://domakun.github.io/lessons/delegated-notarization/)
 
-12\. [接下来的工作: Apostille图书馆](https://domakun.github.io/lessons/future-work/)
+12\. [接下来的工作: Apostille library](https://domakun.github.io/lessons/future-work/)
