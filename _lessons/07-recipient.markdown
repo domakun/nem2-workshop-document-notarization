@@ -4,7 +4,7 @@ title:  "选择交易对象"
 permalink: /lessons/recipient/
 ---
 
-到目前为止，我们使用了经过交易签名的同一帐户作为交易对象(recipient)。 我们可以使用哪些其他帐户？接下来，我们来看看其他选项：
+之前，我们使用了经过交易签名的同一帐户作为交易对象(recipient)。 我们可以使用哪些其他帐户？接下来，我们来看看其他选项：
 
 ![recipient-strategy-sink]({{ site.baseurl }}/assets/images/diagram-recipient-strategy-sink.png)
 
@@ -20,7 +20,7 @@ permalink: /lessons/recipient/
 
 ![recipient-strategy-asset]({{ site.baseurl }}/assets/images/diagram-recipient-strategy-asset.png)
 
-<strong class='tit'>2\. 文件可以代表 **数字可识别资产(digital identifiable asset)**。 为每个公证使用一个帐户，唯一地表示每个文件。</strong>
+<strong class='tit'>2\. 文件可以代表 **数字可识别资产(digital identifiable asset)**。为每个公证使用一个帐户，唯一地表示每个文件。</strong>
 
 **优点**:
 * 公证书由资产分隔。

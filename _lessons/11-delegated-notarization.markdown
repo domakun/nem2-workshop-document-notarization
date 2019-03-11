@@ -10,7 +10,7 @@ permalink: /lessons/delegated-notarization/
 
 Bob将使用他的帐户签署文件内容。在将文件的哈希码发送给专业组织之后，专业组织将帮Bob把转让交易发布到区块链。
 
-他可以通过使用账户对内容进行签名证明他已知该文件的内容。
+他可以通过使用账户对内容进行签名证明他承认该文件的内容。
 
 ![delegated-notarization]({{ site.baseurl }}/assets/images/diagram-delegated-notarization.png)
 

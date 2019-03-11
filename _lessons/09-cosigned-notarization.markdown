@@ -12,11 +12,11 @@ Alice和Bob已达成协议，并在数字文件中将协议正式化。他们希
 
 NEM可以生成 **multisignature accounts（多重签署公证）**。当你将账户转换为[multisig（多重签名）](https://nemtech.github.io/concepts/multisig-account.html)后,这个账户就不能独自发布交易。它需要其他帐户（称为共同签署者cosignatories）一起来宣布它们的交易。
 
-大多数时候，我们不强制要求所有共同签署者（asset account）来参与交易事务。合约制定时规定了可达成协议需要的最少共同签署者数量。之后可以改变这些属性以满足几乎所有需求。
+大多数时候，我们不强制要求所有共同签署者（cosignatories）来参与交易事务。合约制定时规定了可达成协议需要的最少共同签署者数量。之后可以改变这些属性以满足几乎所有需求。
 
 要牢记的一些重要事项：
 
-* 将帐户转换为multisig（多重签名）后，您将无法再从该帐户启动交易。 只有共同签署者cosignatories可以启动multisig帐户的交易。
+* 将帐户转换为multisig（多重签名）后，您将无法再从该帐户启动交易。只有共同签署者cosignatories可以启动multisig帐户的交易。
 * NEM目前对multisig的实现是 **"M-of-N"**，意味着M可以是等于或小于N的任何数字，即，1-of-2,4-of-2,4-of-9 ，9-of-10，等等。
 * Multisig帐户最多可以有10个签名者。
 * 一个帐户最多可以是5个多重帐户的签名者。

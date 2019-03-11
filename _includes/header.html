@@ -17,6 +17,13 @@
             </label>
 
             <div class="trigger">
+              <div class="changeLanguage">
+                <select onchange="changeLanguage('{{page.url}}')" id="languageType">
+                  <option value ="language" disabled selected>Language</option>
+                  <option value ="en">English</option>
+                  <option value ="ch">中文</option>
+                </select>
+              </div>
                 <i class="fab fa-github"></i> <a class="page-link" href="https://github.com/nemtechchina/nem2-workshop-document-notarization/edit/master/index.md"> Edit on GitHub</a>
             </div>
         </nav>

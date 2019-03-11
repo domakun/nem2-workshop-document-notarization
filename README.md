@@ -1,6 +1,6 @@
-﻿# nem2-workshop-document-notarization
+# nem2-workshop-document-notarization
 
-[开始学习](https://nemtechchina.github.io/)
+[开始学习](https://nemtechchina.github.io/nem2-workshop-document-notarization/)
 
 在本次学习中，您将学习如何证明文件在某个时间点之前的有效性。该文件可以是任何您可以想到的、有兴趣进行公证的数字文件。
 - 例如有价值的合同，电影剧本或专利。
@@ -30,36 +30,47 @@
 
 ### 实验 1 - 启动投石机和项目文件
 
-1\. [基本介绍](https://nemtechchina.github.io/lessons/introduction/)
+1\. [基本介绍](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/introduction/)
 
-2\. [公共与私有区块链](https://nemtechchina.github.io/lessons/public-and-private-blockchain/)
+2\. [公共与私有区块链](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/public-and-private-blockchain/)
 
-3\. [准备工作环境](https://nemtechchina.github.io/lessons/prepare-your-workstation/)
+3\. [准备工作环境](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/prepare-your-workstation/)
 
 
-### 实验 2 - Notarizing文件
+### 实验 2 - 公证文件
 
-4\. [你的第一次公证](https://nemtechchina.github.io/lessons/first-notarization/)
+4\. [你的第一次公证](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/first-notarization/)
 
-5\. [内容与所有权认证](https://nemtechchina.github.io/lessons/content-and-ownership-verification/)
+5\. [内容与所有权认证](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/content-and-ownership-verification/)
 
-6\. [机密文件的公证](https://nemtechchina.github.io/lessons/confidential-notarization/)
+6\. [机密文件的公证](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/confidential-notarization/)
 
 ### 实验 3 - 公证更新
 
-7\. [选择交易对象](https://nemtechchina.github.io/lessons/recipient/)
+7\. [选择交易对象](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/recipient/)
 
-8\. [启用公证更新](https://nemtechchina.github.io/lessons/notarization-updates/)
+8\. [启用公证更新](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/notarization-updates/)
 
 ### 实验 4 - 共同签署公证书
 
-9\. [多重签署公证](https://nemtechchina.github.io/lessons/co-signed-notarization/)
+9\. [多重签署公证](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/co-signed-notarization/)
 
-10\.[转让公证](https://nemtechchina.github.io/lessons/transfer-notarization/)
+10\.[转让公证](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/transfer-notarization/)
 
 
 ### 实验 5 - 接下来的工作
 
-11\. [委托公证](https://nemtechchina.github.io/lessons/delegated-notarization/)
+11\. [委托公证](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/delegated-notarization/)
 
-12\. [接下来的工作: Apostille library](https://nemtechchina.github.io/lessons/future-work/)
+12\. [接下来的工作: Apostille library](https://nemtechchina.github.io/nem2-workshop-document-notarization/lessons/future-work/)
+
+## 构建
+该项目由NEM基金会开发和维护,欢迎资金赞助。您可以在github上找到[nem2-workshop-document-notarization][self];
+请随意点赞或pull，在赞助前，请先阅读[CONTRIBUTING](CONTRIBUTING.md)。
+
+## 许可
+
+Copyright (c) 2018 NEM
+由[Apache License 2.0](LICENSE)颁发许可。
+
+[self]: https://github.com/nemtechchina/nem2-workshop-document-notarization

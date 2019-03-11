@@ -38,7 +38,7 @@ NEM基于[account（账户）](https://nemtech.github.io/concepts/account.html)�
 
 现在我们不创建新帐户，而是使用已有XEM的帐户。
 
-<strong class='tit'>1\. 打开命令行（terminal）并进入到已下载Catapult Bootstrap Service的目录。</strong>
+<strong class='tit'>1\. 打开命令行并进入到已下载Catapult Bootstrap Service的目录。</strong>
 {% highlight bash %}
 
 $> cd  build/generated-addresses/
@@ -112,7 +112,7 @@ $> cat addresses.yaml
 {% endhighlight %}
 
 
-一旦帐户发布交易，服务器将始终返回OK响应。
+一旦帐户发布交易，服务器将返回OK响应。
 
 交易消息传输到网络后立即获得``未确认状态（unconfirmed status）``状态。只有当交易（transaction）信息保存在一个块（block）中时，它才会收到确认。
 
