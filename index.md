@@ -26,7 +26,7 @@ layout: home
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Docker](https://docs.docker.com/install/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
-* [Node](https://nodejs.org/en/download/) >= 8.9.X.
+* [Node](https://nodejs.org/en/download/) >= 8.9.X.   
 
 ## 实验
 
